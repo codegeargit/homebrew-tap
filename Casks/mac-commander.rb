@@ -1,6 +1,6 @@
 cask "mac-commander" do
-  version "1.15.1"
-  sha256 "7c6b28f5035b9a5a2839697798db4afcc4095a8e6348986c64abe25a6d05210d"
+  version "1.15.2"
+  sha256 "ddc74d06e37d135420003ce438e03940187393998128561f4b72346f5575305c"
 
   url "https://github.com/codegeargit/mac-commander-releases/releases/download/v#{version}/MacCommander-#{version}.dmg"
   name "Mac Commander"
