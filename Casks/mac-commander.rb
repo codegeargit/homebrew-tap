@@ -4,7 +4,7 @@ cask "mac-commander" do
 
   url "https://github.com/codegeargit/mac-commander-releases/releases/download/v#{version}/MacCommander-#{version}.dmg"
   name "Mac Commander"
-  desc "Keyboard-driven dual-pane file manager"
+  desc "Read Markdown in a project folder next to the terminal"
   homepage "https://maccommander.com/"
 
   livecheck do
@@ -16,6 +16,7 @@ cask "mac-commander" do
   depends_on macos: :sonoma
 
   app "MacCommander.app"
+  binary "#{appdir}/MacCommander.app/Contents/Resources/mcom"
 
   zap trash: [
     "~/Library/Caches/ai.codegear.MacCommander",
